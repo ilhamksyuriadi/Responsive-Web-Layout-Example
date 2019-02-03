@@ -75,7 +75,7 @@ header a:hover {
 /*Showcase*/
 #showcase {
   min-height: 400px;
-  background: url("./image/moon.jpg") no-repeat;
+  background: url("./image/moondarker.jpg") no-repeat;
   background-size: cover;
   text-align: center;
   color: white;
@@ -110,4 +110,29 @@ header a:hover {
   padding: 4px;
   height: 40px;
   width: 300px;
+}
+
+/*Boxex */
+#boxes {
+  margin: 20px 40px 0px 40px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img {
+  width: 90px;
+}
+
+/*Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background: #eb491d;
+  color: white;
+  text-align: center;
 }
